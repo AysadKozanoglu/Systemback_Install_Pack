@@ -102,6 +102,8 @@ EOF
       esac
     done
 
+
+
     tput cnorm
     tput sgr0
     echo
