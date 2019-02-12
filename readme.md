@@ -41,7 +41,7 @@ If the installation is failed, you will receive the following error message:
  ```
 systemback-cli 
  ```
- you will see choice points for crete backup and restore
+ you will see choice points for create backups and restore
  
  ##### See online howto's :
  https://linoxide.com/linux-how-to/systemback-backup-system/
