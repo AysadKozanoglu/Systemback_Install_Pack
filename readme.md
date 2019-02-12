@@ -13,7 +13,7 @@ These packages are compatible with the following Linux distributions:
  ### Howto install 
 To install the program just run the 'install.sh' installer script with root privileges in terminal, like this:
 
- ``sudo ./install.sh```
+ ```sudo ./install.sh```
 
 or
 
