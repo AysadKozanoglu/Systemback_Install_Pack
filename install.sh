@@ -6,6 +6,7 @@
 #                 Ubuntu 15.04,
 #                 Ubuntu 15.10,
 #                 Ubuntu 16.04.X LTS,
+#                 Ubuntu 18.04,
 #                 Debian 8.0
 #
 # This script can be used and modified freely, without any restrictions.
@@ -39,6 +40,9 @@ case "$(lsb_release -cs)" in
   xenial)
     release=Ubuntu_Xenial
     ;;
+  bionic)
+    release=Ubuntu_Xenial
+    ;;
   jessie)
     release=Debian_Jessie
     ;;
@@ -62,7 +66,8 @@ EOF
   2 ─ Ubuntu 15.04 (Vivid Vervet)
   3 ─ Ubuntu 15.10 (Wily Werewolf)
   4 ─ Ubuntu 16.04.X LTS (Xenial Xerus)
-  5 ─ Debian 8.0 (Jessie)
+  5 ─ Ubuntu 18.04
+  6 ─ Debian 8.0 (Jessie)
 EOF
 
     tput civis
@@ -89,7 +94,10 @@ EOF
         4)
           release=Ubuntu_Xenial
           ;;
-        5)
+       5)
+          release=Ubuntu_Xenial
+          ;;	 
+        6)
           release=Debian_Jessie
       esac
     done
