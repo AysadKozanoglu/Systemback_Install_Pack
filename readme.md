@@ -1,6 +1,6 @@
 Aysad Kozanoglu
 
-This Install Pack contains the Systemback Debian installation packages.
+This Install Pack contains the Systemback Debian & ubuntu installation packages.
 
 These packages are compatible with the following Linux distributions:
  - Ubuntu 14.04.X LTS (Trusty Tahr)
